@@ -1,8 +1,8 @@
 {
   "name": "recipe-book",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A recipe book I made for my mom's bitrhday",
+  "main": "build-book.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/pldiiw/recipe-book/issues"
   },
-  "homepage": "https://github.com/pldiiw/recipe-book#readme"
+  "homepage": "https://github.com/pldiiw/recipe-book#readme",
+  "dependencies": {
+    "markdown-it": "^6.0.1",
+    "pug": "^2.0.0-alpha7"
+  }
 }

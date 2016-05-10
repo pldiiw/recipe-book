@@ -1,4 +1,4 @@
-http://123veggie.fr/recette/petits-pains-facon-panettone/
+DONE http://123veggie.fr/recette/petits-pains-facon-panettone/
 http://123veggie.fr/recette/salade-cesar/
 http://123veggie.fr/recette/accras-de-legumes/
 http://123veggie.fr/recette/macarons-sales-de-noel/
