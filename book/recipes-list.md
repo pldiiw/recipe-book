@@ -1,13 +1,13 @@
 DONE http://123veggie.fr/recette/petits-pains-facon-panettone/
-http://123veggie.fr/recette/salade-cesar/
-http://123veggie.fr/recette/accras-de-legumes/
-http://123veggie.fr/recette/macarons-sales-de-noel/
-http://123veggie.fr/recette/tomates-farcies-au-tzatziki/
-http://123veggie.fr/recette/nem-de-courgettes-crues-aux-saveurs-du-sud/
-http://123veggie.fr/recette/summer-bowl-aux-accents-du-sud/
-http://123veggie.fr/recette/salade-maki-disloki/
-http://123veggie.fr/recette/tartare-sucre-sale/
-http://123veggie.fr/recette/soupe-de-betteraves-a-la-russe/
+DONE http://123veggie.fr/recette/salade-cesar/
+DONE http://123veggie.fr/recette/accras-de-legumes/
+DONE http://123veggie.fr/recette/macarons-sales-de-noel/
+DONE http://123veggie.fr/recette/tomates-farcies-au-tzatziki/
+DONE http://123veggie.fr/recette/nem-de-courgettes-crues-aux-saveurs-du-sud/
+DONE http://123veggie.fr/recette/summer-bowl-aux-accents-du-sud/
+DONE http://123veggie.fr/recette/salade-maki-disloki/
+DONE http://123veggie.fr/recette/tartare-sucre-sale/
+DONE http://123veggie.fr/recette/soupe-de-betteraves-a-la-russe/
 http://123veggie.fr/recette/salade-de-concombre-a-la-menthe/
 http://123veggie.fr/recette/taboule-libanais/
 http://123veggie.fr/recette/salade-de-chou-rouge-et-graines/

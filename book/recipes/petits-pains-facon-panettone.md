@@ -1,4 +1,4 @@
-# Petits Pains Façon Panettone
+# Petits pains façon panettone
 
 ![showcase](http://123veggie.fr/wp-content/uploads/2014/12/pain-brioche-panettone-avf1-850x400.jpg)
 
