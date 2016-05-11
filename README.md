@@ -5,9 +5,9 @@ Contains only vegans recipes ;).
 Written in french.
 
 All recipes taken from these french websites :
-* 123veggie.fr
-* patateetcornichon.fr
-* vegemiam.fr
+* [123veggie.fr](http://123veggie.fr/)
+* [patateetcornichon.fr](http://patateetcornichon.fr/)
+* [vegemiam.fr](http://vegemiam.fr/)
 
 ## LICENSE
 
