@@ -8,17 +8,17 @@ DONE http://123veggie.fr/recette/summer-bowl-aux-accents-du-sud/
 DONE http://123veggie.fr/recette/salade-maki-disloki/
 DONE http://123veggie.fr/recette/tartare-sucre-sale/
 DONE http://123veggie.fr/recette/soupe-de-betteraves-a-la-russe/
-http://123veggie.fr/recette/salade-de-concombre-a-la-menthe/
-http://123veggie.fr/recette/taboule-libanais/
-http://123veggie.fr/recette/salade-de-chou-rouge-et-graines/
-http://123veggie.fr/recette/asperges-vertes-et-sauce-blanche/
-http://123veggie.fr/recette/salade-asiatique/
-http://123veggie.fr/recette/ravioles-de-betterave/
-http://123veggie.fr/recette/salade-davocats-petits-pois/
-http://123veggie.fr/recette/veloute-de-courge/
-http://123veggie.fr/recette/salade-de-pommes-de-terre-au-pesto-de-coriandre/
-http://123veggie.fr/recette/sandwich-a-la-japonaise/
-http://123veggie.fr/recette/buddha-bowl/
+DONE http://123veggie.fr/recette/salade-de-concombre-a-la-menthe/
+DONE http://123veggie.fr/recette/taboule-libanais/
+DONE http://123veggie.fr/recette/salade-de-chou-rouge-et-graines/
+DONE http://123veggie.fr/recette/asperges-vertes-et-sauce-blanche/
+DONE http://123veggie.fr/recette/salade-asiatique/
+DONE http://123veggie.fr/recette/ravioles-de-betterave/
+DONE http://123veggie.fr/recette/salade-davocats-petits-pois/
+DONE http://123veggie.fr/recette/veloute-de-courge/
+DONE http://123veggie.fr/recette/salade-de-pommes-de-terre-au-pesto-de-coriandre/
+DONE http://123veggie.fr/recette/sandwich-a-la-japonaise/
+DONE http://123veggie.fr/recette/buddha-bowl/
 http://123veggie.fr/recette/curry-de-haricots-coco/
 http://123veggie.fr/recette/la-sarrazine/
 http://123veggie.fr/recette/pommes-de-terre-farcies/
