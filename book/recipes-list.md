@@ -19,25 +19,25 @@ DONE http://123veggie.fr/recette/veloute-de-courge/
 DONE http://123veggie.fr/recette/salade-de-pommes-de-terre-au-pesto-de-coriandre/
 DONE http://123veggie.fr/recette/sandwich-a-la-japonaise/
 DONE http://123veggie.fr/recette/buddha-bowl/
-http://123veggie.fr/recette/curry-de-haricots-coco/
-http://123veggie.fr/recette/la-sarrazine/
-http://123veggie.fr/recette/pommes-de-terre-farcies/
-http://123veggie.fr/recette/pommes-de-terre-sautees-a-lalsacienne/
-http://123veggie.fr/recette/gratin-pommes-de-terre-champignons/
-http://123veggie.fr/recette/merguez-vegetales-2/
-http://123veggie.fr/recette/cannelonis-davocat-au-tofu-2/
-http://123veggie.fr/recette/canneloni-verts/
-http://123veggie.fr/recette/falafels-comme-en-israel/
-http://123veggie.fr/recette/dip-tres-frais-pour-trempette-estivale/
-http://123veggie.fr/recette/gressini/
-http://123veggie.fr/recette/trio-de-verrines-festives/
-http://123veggie.fr/recette/legumes-croquants-au-vinaigre/
-http://123veggie.fr/recette/minis-galettes-des-rois-sans-gluten/
-http://123veggie.fr/recette/mendiants-aux-3-chocolats/
-http://123veggie.fr/recette/cremes-a-la-vanille-et-pommes-caramelisees/
-http://123veggie.fr/recette/creme-au-chocolat-et-eclats-de-noisettes/
-http://123veggie.fr/recette/energy-balls-choco-coco/
-http://123veggie.fr/recette/polenta-aux-fruits-rouges/
+DONE http://123veggie.fr/recette/curry-de-haricots-coco/
+DONE http://123veggie.fr/recette/la-sarrazine/
+DONE http://123veggie.fr/recette/pommes-de-terre-farcies/
+DONE http://123veggie.fr/recette/pommes-de-terre-sautees-a-lalsacienne/
+DONE http://123veggie.fr/recette/gratin-pommes-de-terre-champignons/
+DONE http://123veggie.fr/recette/merguez-vegetales-2/
+DONE http://123veggie.fr/recette/cannelonis-davocat-au-tofu-2/
+DONE http://123veggie.fr/recette/canneloni-verts/
+DONE http://123veggie.fr/recette/falafels-comme-en-israel/
+DONE http://123veggie.fr/recette/dip-tres-frais-pour-trempette-estivale/
+DONE http://123veggie.fr/recette/gressini/
+DONE http://123veggie.fr/recette/trio-de-verrines-festives/
+DONE http://123veggie.fr/recette/legumes-croquants-au-vinaigre/
+DONE http://123veggie.fr/recette/minis-galettes-des-rois-sans-gluten/
+DONE http://123veggie.fr/recette/mendiants-aux-3-chocolats/
+DONE http://123veggie.fr/recette/cremes-a-la-vanille-et-pommes-caramelisees/
+DONE http://123veggie.fr/recette/creme-au-chocolat-et-eclats-de-noisettes/
+DONE http://123veggie.fr/recette/energy-balls-choco-coco/
+DONE http://123veggie.fr/recette/polenta-aux-fruits-rouges/
 http://123veggie.fr/recette/pommes-au-four-en-croute-de-speculoos/
 http://123veggie.fr/recette/cookies-healthy-au-muesli/
 http://123veggie.fr/recette/tartelettes-aux-fruits-rouges/
@@ -106,3 +106,4 @@ http://vegemiam.fr/?p=48072
 http://vegemiam.fr/?p=48674
 http://vegemiam.fr/?p=48798
 http://vegemiam.fr/?p=48786
+http://123veggie.fr/recette/le-bouillon-qui-sent-le-poulet/
