@@ -38,18 +38,18 @@ DONE http://123veggie.fr/recette/cremes-a-la-vanille-et-pommes-caramelisees/
 DONE http://123veggie.fr/recette/creme-au-chocolat-et-eclats-de-noisettes/
 DONE http://123veggie.fr/recette/energy-balls-choco-coco/
 DONE http://123veggie.fr/recette/polenta-aux-fruits-rouges/
-http://123veggie.fr/recette/pommes-au-four-en-croute-de-speculoos/
-http://123veggie.fr/recette/cookies-healthy-au-muesli/
-http://123veggie.fr/recette/tartelettes-aux-fruits-rouges/
-http://123veggie.fr/recette/cookies-3-ingredients-cacahuete-chocolat/
-http://123veggie.fr/recette/des-pancakes-trop-bons/
-http://123veggie.fr/recette/tarte-aux-poires-facon-amandine/
-http://123veggie.fr/recette/gateau-a-la-banane/
-http://123veggie.fr/recette/tartelettes-crues-aux-myrtilles/
-http://123veggie.fr/recette/pancakes-a-la-noisette/
-http://123veggie.fr/recette/carres-chocolates-aux-azukis/
-http://123veggie.fr/recette/pain-perdu-des-iles/
-http://123veggie.fr/recette/salade-de-fruits-dhiver-a-lhibiscus-et-a-la-rose/
+DONE http://123veggie.fr/recette/pommes-au-four-en-croute-de-speculoos/
+DONE http://123veggie.fr/recette/cookies-healthy-au-muesli/
+DONE http://123veggie.fr/recette/tartelettes-aux-fruits-rouges/
+DONE http://123veggie.fr/recette/cookies-3-ingredients-cacahuete-chocolat/
+DONE http://123veggie.fr/recette/des-pancakes-trop-bons/
+DONE http://123veggie.fr/recette/tarte-aux-poires-facon-amandine/
+DONE http://123veggie.fr/recette/gateau-a-la-banane/
+DONE http://123veggie.fr/recette/tartelettes-crues-aux-myrtilles/
+DONE http://123veggie.fr/recette/pancakes-a-la-noisette/
+DONE http://123veggie.fr/recette/carres-chocolates-aux-azukis/
+DONE http://123veggie.fr/recette/pain-perdu-des-iles/
+DONE http://123veggie.fr/recette/salade-de-fruits-dhiver-a-lhibiscus-et-a-la-rose/
 http://123veggie.fr/recette/soupe-dagrumes/
 http://123veggie.fr/recette/truffes-et-gourmandises-chocolatees/
 http://123veggie.fr/recette/creme-brulee-exotique/
