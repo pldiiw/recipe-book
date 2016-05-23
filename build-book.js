@@ -5,9 +5,17 @@ const path = require('path');
 const pug = require('pug');
 const md = require('markdown-it')();
 
+const index =
+'doctype html\n' +
+'html\n' +
+'  head\n' +
+'    script.\n' +
+'      location = "book/cover-front.html";\n' +
+'  body';
+
 fs.writeFileSync(
   'build/index.html',
-  'hello',
+  pug.render(index),
   'utf8'
 );
 
