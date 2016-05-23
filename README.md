@@ -12,6 +12,7 @@ All recipes taken from these french websites :
 ## How can I read it ?
 
 Be sure to have Nodejs v6.x installed and run the following commands :
+
     $ git clone https://github.com/pldiiw/recipe-book.git
     $ cd recipe-book
     $ npm i
