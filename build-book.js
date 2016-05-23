@@ -1,8 +1,53 @@
+'use strict';
+
 const fs = require('fs');
+const path = require('path');
 const pug = require('pug');
 const md = require('markdown-it')();
 
-// check if build folder is created and create it if it isn't
+fs.writeFileSync(
+  'build/index.html',
+  'hello',
+  'utf8'
+);
 
-// build cover pages, and first page, and end with all recipes
-// also generate summary
+fs.readFile('styles.css', 'utf8', (err, content) => {
+  fs.writeFile('build/styles.css', content, 'utf8', (err) => {
+    if (err) throw err;
+  });
+});
+
+[
+  'cover-front.pug',
+  'first-page.pug'
+].forEach((file) => {
+  fs.writeFileSync(
+    'build/book/' + path.basename(file, '.pug') + ".html",
+    pug.renderFile('book/' + file, { pretty: true }),
+    'utf8'
+  );
+});
+
+const recipes = fs.readdirSync('book/recipes/');
+
+const recipesTitles = recipes
+  .map((file) => fs.readFileSync('book/recipes/' + file, 'utf8').split('\n')[0].slice(2));
+
+fs.writeFileSync(
+  'build/book/table-of-contents.html',
+  pug.renderFile(
+    'book/table-of-contents.pug',
+    { recipesTitles: recipesTitles, pretty: true }
+  ),
+  'utf8'
+);
+
+const layoutFn = pug.compileFile('book/layout.pug', { pretty: true });
+recipes.forEach((file) => {
+  fs.writeFile(
+    'build/book/recipes/' + path.basename(file, '.md') + '.html',
+    layoutFn({
+      recipe: md.render(fs.readFileSync('book/recipes/' + file, 'utf8'))
+    })
+  );
+});

@@ -2,9 +2,11 @@
   "name": "recipe-book",
   "version": "0.0.0",
   "description": "A recipe book I made for my mom's birthday",
-  "main": "build-book.js",
+  "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf build; mkdir -p build/book/recipes; node build-book.js",
+    "start": "npm build && firefox build/index.html"
   },
   "repository": {
     "type": "git",
