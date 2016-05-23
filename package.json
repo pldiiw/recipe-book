@@ -20,6 +20,7 @@
   "homepage": "https://github.com/pldiiw/recipe-book#readme",
   "dependencies": {
     "markdown-it": "^6.0.1",
-    "pug": "^2.0.0-alpha7"
+    "pug": "^2.0.0-alpha7",
+    "stylus": "^0.54.5"
   }
 }

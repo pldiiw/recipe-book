@@ -4,6 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const pug = require('pug');
 const md = require('markdown-it')();
+const stylus = require('stylus');
 
 const index =
 'doctype html\n' +
@@ -19,8 +20,8 @@ fs.writeFileSync(
   'utf8'
 );
 
-fs.readFile('styles.css', 'utf8', (err, content) => {
-  fs.writeFile('build/styles.css', content, 'utf8', (err) => {
+fs.readFile('styles.styl', 'utf8', (err, content) => {
+  fs.writeFile('build/styles.css', stylus.render(content), 'utf8', (err) => {
     if (err) throw err;
   });
 });
