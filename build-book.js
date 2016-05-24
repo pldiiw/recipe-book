@@ -6,19 +6,7 @@ const pug = require('pug');
 const md = require('markdown-it')();
 const stylus = require('stylus');
 
-const index =
-'doctype html\n' +
-'html\n' +
-'  head\n' +
-'    script.\n' +
-'      location = "book/cover-front.html";\n' +
-'  body';
-
-fs.writeFileSync(
-  'build/index.html',
-  pug.render(index),
-  'utf8'
-);
+const secSep = '\n<!--###################################################-->\n';
 
 fs.readFile('styles.styl', 'utf8', (err, content) => {
   fs.writeFile('build/styles.css', stylus.render(content), 'utf8', (err) => {
@@ -26,15 +14,13 @@ fs.readFile('styles.styl', 'utf8', (err, content) => {
   });
 });
 
+let book = '';
+
 [
-  'cover-front.pug',
-  'first-page.pug'
+  'frontcover.pug',
+  'dedication.pug'
 ].forEach((file) => {
-  fs.writeFileSync(
-    'build/book/' + path.basename(file, '.pug') + ".html",
-    pug.renderFile('book/' + file, { pretty: true }),
-    'utf8'
-  );
+  book += pug.renderFile('book/' + file, { pretty: true }) + secSep;
 });
 
 const recipes = fs.readdirSync('book/recipes/');
@@ -42,21 +28,19 @@ const recipes = fs.readdirSync('book/recipes/');
 const recipesTitles = recipes
   .map((file) => fs.readFileSync('book/recipes/' + file, 'utf8').split('\n')[0].slice(2));
 
-fs.writeFileSync(
-  'build/book/table-of-contents.html',
-  pug.renderFile(
-    'book/table-of-contents.pug',
-    { recipesTitles: recipesTitles, pretty: true }
-  ),
-  'utf8'
-);
+book += pug.renderFile('book/toc.pug',
+                       { recipesTitles: recipesTitles, pretty: true }
+                      ) + secSep;
 
 const layoutFn = pug.compileFile('book/layout.pug', { pretty: true });
 recipes.forEach((file) => {
-  fs.writeFile(
-    'build/book/recipes/' + path.basename(file, '.md') + '.html',
-    layoutFn({
-      recipe: md.render(fs.readFileSync('book/recipes/' + file, 'utf8'))
-    })
-  );
+  book += layoutFn({
+    recipe: md.render(fs.readFileSync('book/recipes/' + file, 'utf8'))
+  }) + secSep;
 });
+
+fs.writeFileSync(
+  'build/index.html',
+  pug.renderFile('book/index.pug', {book: book, pretty: true}), 
+  'utf8'
+);
